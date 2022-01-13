@@ -3,7 +3,7 @@
 1.The following code has SQL injection:
 
 vulnerability found in:
-    \App\Modules\Admin\Action\ArticlemAction.class.php line 390 function query
+    \App\Modules\Admin\Action\ArticlemAction.class.php line 390 function _list
    
 		$list = $model->where($map)->relation(true)->order($order.' '.$sort)
 						->limit($p->firstRow.','.$p->listRows)
