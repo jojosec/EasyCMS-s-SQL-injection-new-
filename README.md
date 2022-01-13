@@ -21,6 +21,10 @@ vulnerability found in:
 
 The variable Order is not filtered and SQL injection exists.
 
+Web sample:
+![图片](https://user-images.githubusercontent.com/90664154/149264421-d0bb1b16-72e3-45f4-8c45-f9f7964336d0.png)
+
+
 2.Payload
 URL:/index.php?s=/admin/user/index.html
 
